@@ -2,8 +2,17 @@
 
 **ticker32** is a beginner-friendly ESP32-S3 project that displays live and 1-hour price trends for Pi Network’s PI coin on a 1.8″ Waveshare AMOLED touchscreen.
 
-### Setup
+### Current Release
+**Version:** 1\.0\.0
 
+### Features
+- **Live PI price & trend**: current PI price, 1-hour average, percentage change, plus a simple 13-point graph  
+- **Touch control**: tap the screen to adjust brightness  
+- **Built-in clock & Wi-Fi status**: see local time and signal strength at a glance
+
+---
+
+### Setup
 #### 1. Required Hardware
 - **Waveshare 1.8″ AMOLED display**
 - **microSD card** (≥4 GB) & SD adapter  
@@ -54,8 +63,3 @@
 #### 5. First Boot & Adjustment
 - The splash screen shows Wi-Fi, time-sync, and API status.  
 - In the main view, **tap** the screen to adjust brightness.
-
-### Features
-- **Live PI price & trend**: current PI price, 1-hour average, percentage change, plus a simple 13-point graph  
-- **Touch control**: tap the screen to adjust brightness  
-- **Built-in clock & Wi-Fi status**: see local time and signal strength at a glance  
