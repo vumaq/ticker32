@@ -47,7 +47,7 @@
    ```bash
    pip install esptool pyserial
    ```
-2. Ensure `flash.py` and `firmware.bin` are in the project root.  
+2. Ensure `flash.py` and `firmware-X.X.X.bin` are in the project root.  
 3. Run:
    ```bash
    python flash.py
