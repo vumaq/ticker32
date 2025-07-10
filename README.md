@@ -12,12 +12,6 @@
 
 ---
 
-### Support This Project
-
-☕ If you found this project helpful, consider [buying me a coffee on Ko-fi](https://ko-fi.com/vumaq) to support development!
-
----
-
 ### Setup
 #### 1. Required Hardware
 - **Waveshare 1.8″ AMOLED display**
@@ -69,3 +63,9 @@
 #### 5. First Boot & Adjustment
 - The splash screen shows Wi-Fi, time-sync, and API status.  
 - In the main view, **tap** the screen to adjust brightness.
+
+---
+
+### Support This Project
+
+☕ If you found this project helpful, consider [buying me a coffee on Ko-fi](https://ko-fi.com/yourusername) to support development!
