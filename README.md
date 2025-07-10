@@ -1,6 +1,6 @@
 # ticker32
 
-**ticker32** is a beginner-friendly ESP32-S3 project that displays live and 1-hour price trends for any cryptocurrency (available on CoinGheko) on a 1.8″ Waveshare AMOLED touchscreen.
+**ticker32** is a beginner-friendly ESP32-S3 project that displays live and 1-hour price trends for any cryptocurrency (available on CoinGecko) on a 1.8″ Waveshare AMOLED touchscreen.
 
 ### Current Release  
 **Version:** 1.0.0
