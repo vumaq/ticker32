@@ -10,7 +10,9 @@
 - **Touch control**: tap the screen to adjust brightness  
 - **Built-in clock & Wi-Fi status**: see local time and signal strength at a glance
 
-☕ If you found this project helpful, consider [buying me a coffee on Ko-fi](https://ko-fi.com/yourusername) to support development!
+### Support This Project
+
+☕ If you found this project helpful, consider [buying me a coffee on Ko-fi](https://ko-fi.com/vumaq) to support development!
 
 ---
 
