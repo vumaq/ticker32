@@ -16,7 +16,7 @@
 #### 1. Required Hardware
 - **Waveshare 1.8″ AMOLED display**
   [Product page](https://www.waveshare.com/esp32-s3-touch-amoled-1.8.htm)  
-- **microSD card** (≥4 GB) & SD adapter  
+- **microSD card**
 - **USB cable** (USB-C to USB-A, data & power)  
 - **3D-printed base** (`base.stl`, 100% scale, no supports)
 
