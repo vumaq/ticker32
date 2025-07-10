@@ -37,7 +37,6 @@
      "BRIGHTNESS_STEP":    10,
      "COIN_ID":            "pi-network",
      "VS_CURRENCY":        "usd",
-     "HISTORY_DAYS":       1,
      "DEBUG_DOT":          1
    }
    ```
