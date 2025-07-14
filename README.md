@@ -65,11 +65,11 @@
 
 #### Parts and Tools Required
 - **WAVESHARE ESP32-S3 1.8″ AMOLED Touch Display Development Board**  
-  Available from: waveshare.com/esp32-s3-touch-amoled-1.8.htm
+  Available from: waveshare.com/esp32-s3-touch-amoled-1.8.htm [waveshare.com/esp32-s3-touch-amoled-1.8.htm](waveshare.com/esp32-s3-touch-amoled-1.8.htm)
 - **Ticker32 3D printed power stand** (PETG)  
-  The STL 3D print file is available free from: ticker32.com and Ko-fi.com
+  The STL 3D print file is available free from:  [ticker32.com](https://ticker32.com) and [github.com/vumaq/ticker32](https://github.dev/vumaq/ticker32/)
 - **NOTOW Elbow USB-A to USB-C 90° braided cable**  
-  Available from AliExpress: aliexpress.com/w/wholesale--notow-elbow-usb-to-type-c-90-degrees-braid.html
+  Available from AliExpress: [aliexpress.com/w/wholesale--notow-elbow-usb-to-type-c-90-degrees-braid.html](https://aliexpress.com/w/wholesale--notow-elbow-usb-to-type-c-90-degrees-braid.html)
 - **Teaspoon or dessert spoon** with a handle that fits sideways into the cavity in the base.
 - **Tube of CA glue** (optional)
 
@@ -90,7 +90,7 @@
 
 > **Note:** If the display fits correctly, you may optionally apply a small drop of CA glue to the back of the USB-C plug for extra security.
 
-#### Disclaimer
+### Disclaimer
 This 3D USB-C power stand design, including the associated STL file(s), is provided free of charge by our software development group for informational and prototyping purposes only.
 
 - The software team does not supply any physical components, including the 3D-printed parts, USB-C cables, or other hardware.  
