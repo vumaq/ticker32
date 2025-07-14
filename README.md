@@ -52,6 +52,9 @@
 
 3. **Insert** the card into the ESP32’s microSD slot.
 
+> **Note:** On first boot, the Wi-Fi PASSWORD field is encrypted and removed from the SD card. To change your Wi-Fi password afterward, re-add the PASSWORD key and it's new value to config json on the SD card.
+
+
 #### Flash the Firmware
 1. Install Python 3 and required tools:  
    ```bash
