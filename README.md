@@ -14,14 +14,20 @@
 
 ### Setup
 
-#### 1. Required Hardware
-- **Waveshare 1.8″ AMOLED display**  
-  [Product page](https://www.waveshare.com/esp32-s3-touch-amoled-1.8.htm)  
-- **microSD card**  
-- **USB cable** (USB-C to USB-A power)  
-- **3D-printed base** (`base.stl`, 100% scale, no supports)
+#### Parts and Tools Required
 
-#### 2. microSD Card Configuration
+![Parts and Tools Required](https://github.com/vumaq/ticker32/blob/2f52a1c628bf5823aa7d4f3847caa8ab03c659d2/docs/images/parts.jpeg?raw=true)
+
+- **WAVESHARE ESP32-S3 1.8″ AMOLED Touch Display Development Board**  
+  Available from: waveshare.com/esp32-s3-touch-amoled-1.8.htm [waveshare.com/esp32-s3-touch-amoled-1.8.htm](waveshare.com/esp32-s3-touch-amoled-1.8.htm)
+- **Ticker32 3D printed power stand** (PETG)  
+  The STL 3D print file is available free from:  [ticker32.com](https://ticker32.com) and [github.com/vumaq/ticker32](https://github.dev/vumaq/ticker32/)
+- **NOTOW Elbow USB-A to USB-C 90° braided cable**  
+  Available from AliExpress: [aliexpress.com/w/wholesale--notow-elbow-usb-to-type-c-90-degrees-braid.html](https://aliexpress.com/w/wholesale--notow-elbow-usb-to-type-c-90-degrees-braid.html)
+- **Teaspoon or dessert spoon** with a handle that fits sideways into the cavity in the base.
+- **Tube of CA glue** (optional)
+
+#### microSD Card Configuration
 1. **Format** the card as **FAT32**  
 2. **Create** a `config.json` file in the root directory:  
    ```json
@@ -46,7 +52,7 @@
 
 3. **Insert** the card into the ESP32’s microSD slot.
 
-#### 3. Flash the Firmware
+##### Flash the Firmware
 1. Install Python 3 and required tools:  
    ```bash
    pip install esptool pyserial
@@ -57,30 +63,11 @@
    python flash.py
    ```
 
----
-
-### Assembly & Power
-
-#### Parts and Tools Required
-
-![Parts and Tools Required](https://github.com/vumaq/ticker32/blob/2f52a1c628bf5823aa7d4f3847caa8ab03c659d2/docs/images/parts.jpeg?raw=true)
-
-- **WAVESHARE ESP32-S3 1.8″ AMOLED Touch Display Development Board**  
-  Available from: waveshare.com/esp32-s3-touch-amoled-1.8.htm [waveshare.com/esp32-s3-touch-amoled-1.8.htm](waveshare.com/esp32-s3-touch-amoled-1.8.htm)
-- **Ticker32 3D printed power stand** (PETG)  
-  The STL 3D print file is available free from:  [ticker32.com](https://ticker32.com) and [github.com/vumaq/ticker32](https://github.dev/vumaq/ticker32/)
-- **NOTOW Elbow USB-A to USB-C 90° braided cable**  
-  Available from AliExpress: [aliexpress.com/w/wholesale--notow-elbow-usb-to-type-c-90-degrees-braid.html](https://aliexpress.com/w/wholesale--notow-elbow-usb-to-type-c-90-degrees-braid.html)
-- **Teaspoon or dessert spoon** with a handle that fits sideways into the cavity in the base.
-- **Tube of CA glue** (optional)
-
-
 #### Assembly Steps
 
 | ![Fig 1](https://github.com/vumaq/ticker32/blob/2f52a1c628bf5823aa7d4f3847caa8ab03c659d2/docs/images/fig1.jpeg?raw=true) | ![Fig 2](https://github.com/vumaq/ticker32/blob/2f52a1c628bf5823aa7d4f3847caa8ab03c659d2/docs/images/fig2.jpeg?raw=true) | ![Fig 3](https://github.com/vumaq/ticker32/blob/2f52a1c628bf5823aa7d4f3847caa8ab03c659d2/docs/images/fig3.jpeg?raw=true) |
 |-------------------------------|-------------------------------|-------------------------------|
 | ![Fig 4](https://github.com/vumaq/ticker32/blob/2f52a1c628bf5823aa7d4f3847caa8ab03c659d2/docs/images/fig4.jpeg?raw=true) | ![Fig 5](https://github.com/vumaq/ticker32/blob/2f52a1c628bf5823aa7d4f3847caa8ab03c659d2/docs/images/fig5.jpeg?raw=true) | ![Fig 6](https://github.com/vumaq/ticker32/blob/2f52a1c628bf5823aa7d4f3847caa8ab03c659d2/docs/images/fig6.jpeg?raw=true) |
-
 
 1. Turn the power stand upside down and observe the cable cavities (see Fig 1).  
 2. Insert the USB-C (90°) end of the cable into the cavity in the base, with the metal connector protruding through the passthrough (see Fig 2).  
