@@ -52,7 +52,7 @@
 
 3. **Insert** the card into the ESP32’s microSD slot.
 
-> **Note:** On boot, the Wi-Fi PASSWORD field is encrypted on the device and removed from the microSD card. To change your Wi-Fi password afterward, re-add the PASSWORD key and it's new value to config json on the microSD card.
+> **Note:** On boot, the Wi-Fi PASSWORD field is encrypted, copied to the device and removed from the microSD card. To change your Wi-Fi password afterward, re-add the PASSWORD key and it's new value to config json on the microSD card.
 
 
 #### Flash the Firmware
