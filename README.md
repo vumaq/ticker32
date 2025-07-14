@@ -17,13 +17,13 @@
 #### 1. Required Hardware
 - **Waveshare 1.8″ AMOLED display**  
   [Product page](https://www.waveshare.com/esp32-s3-touch-amoled-1.8.htm)  
-- **microSD card**
+- **microSD card**  
 - **USB cable** (USB-C to USB-A power)  
 - **3D-printed base** (`base.stl`, 100% scale, no supports)
 
 #### 2. microSD Card Configuration
 1. **Format** the card as **FAT32**  
-2. **Create** a `config.json` file in the root directory:
+2. **Create** a `config.json` file in the root directory:  
    ```json
    {
      "SSID":               "YourNetwork",
@@ -47,25 +47,58 @@
 3. **Insert** the card into the ESP32’s microSD slot.
 
 #### 3. Flash the Firmware
-1. Install Python 3 and required tools:
+1. Install Python 3 and required tools:  
    ```bash
    pip install esptool pyserial
    ```
 2. Make sure `flash.py` and `firmware-X.X.X.bin` are in the root folder.  
-3. Run the flashing script:
+3. Run the flashing script:  
    ```bash
    python flash.py
    ```
 
-#### 4. Assembly & Power
-1. **Print** `base.stl` using PLA or ABS (0.2mm layer height)  
-2. **Insert** the microSD card  
-3. **Connect** the USB cable to power the ESP32  
-4. **Press-fit** the display into the base.  
+---
 
-#### 5. First Boot & Operation
-- On boot, a splash screen shows Wi-Fi, NTP, and API status.  
-- In the main view, **tap** the screen to adjust brightness.
+### Assembly & Power
+
+![Parts and Tools Required](docs/images/parts.jpeg)
+
+#### Parts and Tools Required
+- **WAVESHARE ESP32-S3 1.8″ AMOLED Touch Display Development Board**  
+  Available from: waveshare.com/esp32-s3-touch-amoled-1.8.htm
+- **Ticker32 3D printed power stand** (PETG)  
+  The STL 3D print file is available free from: ticker32.com and Ko-fi.com
+- **NOTOW Elbow USB-A to USB-C 90° braided cable**  
+  Available from AliExpress: aliexpress.com/w/wholesale--notow-elbow-usb-to-type-c-90-degrees-braid.html
+- **Teaspoon or dessert spoon** with a handle that fits sideways into the cavity in the base.
+- **Tube of CA glue** (optional)
+
+| ![Fig 1](docs/images/fig1.jpeg) | ![Fig 2](docs/images/fig2.jpeg) | ![Fig 3](docs/images/fig3.jpeg) |
+|-------------------------------|-------------------------------|-------------------------------|
+| ![Fig 4](docs/images/fig4.jpeg) | ![Fig 5](docs/images/fig5.jpeg) | ![Fig 6](docs/images/fig6.jpeg) |
+
+
+#### Assembly Steps
+1. Turn the power stand upside down and observe the cable cavities (see Fig 1).  
+2. Insert the USB-C (90°) end of the cable into the cavity in the base, with the metal connector protruding through the passthrough (see Fig 2).  
+3. Using the spoon handle, gently press the USB-C plug forward and down into place (see Fig 3).  
+4. Align the protruding metal part of the USB-C plug with the oblong hole on the inside of the power stand and adjust if necessary (see Fig 5).  
+5. Press firmly on the back of the USB-C plug until it locks into place (see Fig 4).  
+6. Ensure the plastic surrounding the metal connector is nearly flush with the bottom surface of the display guide (see Fig 5).  
+7. Gently press the braided cable into the slot provided; the slot is designed to retain the cable without adhesives.  
+8. Slide the Waveshare 1.8″ AMOLED display into the power stand using the rear guides; the USB-C plug should insert 3–4 mm without resistance, clicking into place when fully inserted (see Fig 6).
+
+> **Note:** If the display fits correctly, you may optionally apply a small drop of CA glue to the back of the USB-C plug for extra security.
+
+#### Disclaimer
+This 3D USB-C power stand design, including the associated STL file(s), is provided free of charge by our software development group for informational and prototyping purposes only.
+
+- The software team does not supply any physical components, including the 3D-printed parts, USB-C cables, or other hardware.  
+- Assembly and use of this USB-C power stand is performed at your own risk.  
+- We make no guarantees regarding fit, function, durability, electrical safety, or compatibility with your specific hardware setup.  
+- Always follow appropriate electrical safety and mechanical stability precautions when assembling or using custom hardware.  
+- The provided STL files and associated design are for personal and non-commercial use only, unless otherwise stated.  
+- By downloading or using the provided design files, you acknowledge that you are solely responsible for the correct and safe use of the components involved.
 
 ---
 
