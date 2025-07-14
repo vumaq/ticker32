@@ -61,7 +61,7 @@
 
 ### Assembly & Power
 
-![Parts and Tools Required](docs/images/parts.jpeg)
+![Parts and Tools Required](https://github.com/vumaq/ticker32/blob/2f52a1c628bf5823aa7d4f3847caa8ab03c659d2/docs/images/parts.jpeg)
 
 #### Parts and Tools Required
 - **WAVESHARE ESP32-S3 1.8″ AMOLED Touch Display Development Board**  
@@ -73,9 +73,9 @@
 - **Teaspoon or dessert spoon** with a handle that fits sideways into the cavity in the base.
 - **Tube of CA glue** (optional)
 
-| ![Fig 1](docs/images/fig1.jpeg) | ![Fig 2](docs/images/fig2.jpeg) | ![Fig 3](docs/images/fig3.jpeg) |
+| ![Fig 1](https://github.com/vumaq/ticker32/blob/2f52a1c628bf5823aa7d4f3847caa8ab03c659d2/docs/images/fig1.jpeg) | ![Fig 2](https://github.com/vumaq/ticker32/blob/2f52a1c628bf5823aa7d4f3847caa8ab03c659d2/docs/images/fig2.jpeg) | ![Fig 3](https://github.com/vumaq/ticker32/blob/2f52a1c628bf5823aa7d4f3847caa8ab03c659d2/docs/images/fig3.jpeg) |
 |-------------------------------|-------------------------------|-------------------------------|
-| ![Fig 4](docs/images/fig4.jpeg) | ![Fig 5](docs/images/fig5.jpeg) | ![Fig 6](docs/images/fig6.jpeg) |
+| ![Fig 4](https://github.com/vumaq/ticker32/blob/2f52a1c628bf5823aa7d4f3847caa8ab03c659d2/docs/images/fig4.jpeg) | ![Fig 5](https://github.com/vumaq/ticker32/blob/2f52a1c628bf5823aa7d4f3847caa8ab03c659d2/docs/images/fig5.jpeg) | ![Fig 6](https://github.com/vumaq/ticker32/blob/2f52a1c628bf5823aa7d4f3847caa8ab03c659d2/docs/images/fig6.jpeg) |
 
 
 #### Assembly Steps
