@@ -12,9 +12,9 @@
 
 ---
 
-### Setup
+## Setup
 
-#### Parts and Tools Required
+### Parts and Tools Required
 
 ![Parts and Tools Required](https://github.com/vumaq/ticker32/blob/2f52a1c628bf5823aa7d4f3847caa8ab03c659d2/docs/images/parts.jpeg?raw=true)
 
@@ -27,7 +27,7 @@
 - **Teaspoon or dessert spoon** with a handle that fits sideways into the cavity in the base.
 - **Tube of CA glue** (optional)
 
-#### microSD Card Configuration
+### microSD Card Configuration
 1. **Format** the card as **FAT32**  
 2. **Create** a `config.json` file in the root directory:  
    ```json
@@ -52,7 +52,7 @@
 
 3. **Insert** the card into the ESP32’s microSD slot.
 
-##### Flash the Firmware
+#### Flash the Firmware
 1. Install Python 3 and required tools:  
    ```bash
    pip install esptool pyserial
@@ -63,7 +63,7 @@
    python flash.py
    ```
 
-#### Assembly Steps
+### Assembly Steps
 
 | ![Fig 1](https://github.com/vumaq/ticker32/blob/2f52a1c628bf5823aa7d4f3847caa8ab03c659d2/docs/images/fig1.jpeg?raw=true) | ![Fig 2](https://github.com/vumaq/ticker32/blob/2f52a1c628bf5823aa7d4f3847caa8ab03c659d2/docs/images/fig2.jpeg?raw=true) | ![Fig 3](https://github.com/vumaq/ticker32/blob/2f52a1c628bf5823aa7d4f3847caa8ab03c659d2/docs/images/fig3.jpeg?raw=true) |
 |-------------------------------|-------------------------------|-------------------------------|
@@ -80,7 +80,7 @@
 
 > **Note:** If the display fits correctly, you may optionally apply a small drop of CA glue to the back of the USB-C plug for extra security.
 
-### Disclaimer
+## Disclaimer
 This 3D USB-C power stand design, including the associated STL file(s), is provided free of charge by our software development group for informational and prototyping purposes only.
 
 - The software team does not supply any physical components, including the 3D-printed parts, USB-C cables, or other hardware.  
@@ -92,6 +92,6 @@ This 3D USB-C power stand design, including the associated STL file(s), is provi
 
 ---
 
-### Support This Project
+## Support This Project
 
 ☕ Found this project useful? [Buy me a coffee on Ko-fi](https://ko-fi.com/vumaq) to support future updates!
