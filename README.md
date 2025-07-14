@@ -78,17 +78,21 @@
 7. Gently press the braided cable into the slot provided; the slot is designed to retain the cable without adhesives.  
 8. Slide the Waveshare 1.8″ AMOLED display into the power stand using the rear guides; the USB-C plug should insert 3–4 mm without resistance, clicking into place when fully inserted (see Fig 6).
 
+**Check your work!** Gently slide the WAVESHARE 1.8” OLED Display into the power stand using the rear guides, the USB-C plug should slide into the display about 3 to 4mm without any resistance, if not check your work, if correct the display will click into place when pressed down fully, see fig 6.
+
 > **Note:** If the display fits correctly, you may optionally apply a small drop of CA glue to the back of the USB-C plug for extra security.
 
 ## Disclaimer
-This 3D USB-C power stand design, including the associated STL file(s), is provided free of charge by our software development group for informational and prototyping purposes only.
+This 3D USB-C power stand design, including the associated STL file(s), is provided free of charge by our software development group **for informational and prototyping purposes only.**
 
-- The software team does not supply any physical components, including the 3D-printed parts, USB-C cables, or other hardware.  
-- Assembly and use of this USB-C power stand is performed at your own risk.  
-- We make no guarantees regarding fit, function, durability, electrical safety, or compatibility with your specific hardware setup.  
-- Always follow appropriate electrical safety and mechanical stability precautions when assembling or using custom hardware.  
-- The provided STL files and associated design are for personal and non-commercial use only, unless otherwise stated.  
+- The **software team does not supply** any physical components, including the 3D-printed parts, USB-C cables, or other hardware.  
+- Assembly and use of this USB-C power stand is performed **at your own risk.**  
+- We make **no guarantees** regarding fit, function, durability, electrical safety, or compatibility with your specific hardware setup.  
+- Always follow appropriate **electrical safety** and **mechanical stability** precautions when assembling or using custom hardware.  
+- The provided STL files and associated design are for **personal and non-commercial use only**, unless otherwise stated.  
 - By downloading or using the provided design files, you acknowledge that you are solely responsible for the correct and safe use of the components involved.
+
+By downloading or using the provided design files, you acknowledge that you are solely responsible for the correct and safe use of the components involved.
 
 ---
 
