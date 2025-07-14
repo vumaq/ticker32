@@ -61,9 +61,10 @@
 
 ### Assembly & Power
 
+#### Parts and Tools Required
+
 ![Parts and Tools Required](https://github.com/vumaq/ticker32/blob/2f52a1c628bf5823aa7d4f3847caa8ab03c659d2/docs/images/parts.jpeg)
 
-#### Parts and Tools Required
 - **WAVESHARE ESP32-S3 1.8″ AMOLED Touch Display Development Board**  
   Available from: waveshare.com/esp32-s3-touch-amoled-1.8.htm [waveshare.com/esp32-s3-touch-amoled-1.8.htm](waveshare.com/esp32-s3-touch-amoled-1.8.htm)
 - **Ticker32 3D printed power stand** (PETG)  
@@ -73,12 +74,14 @@
 - **Teaspoon or dessert spoon** with a handle that fits sideways into the cavity in the base.
 - **Tube of CA glue** (optional)
 
+
+#### Assembly Steps
+
 | ![Fig 1](https://github.com/vumaq/ticker32/blob/2f52a1c628bf5823aa7d4f3847caa8ab03c659d2/docs/images/fig1.jpeg) | ![Fig 2](https://github.com/vumaq/ticker32/blob/2f52a1c628bf5823aa7d4f3847caa8ab03c659d2/docs/images/fig2.jpeg) | ![Fig 3](https://github.com/vumaq/ticker32/blob/2f52a1c628bf5823aa7d4f3847caa8ab03c659d2/docs/images/fig3.jpeg) |
 |-------------------------------|-------------------------------|-------------------------------|
 | ![Fig 4](https://github.com/vumaq/ticker32/blob/2f52a1c628bf5823aa7d4f3847caa8ab03c659d2/docs/images/fig4.jpeg) | ![Fig 5](https://github.com/vumaq/ticker32/blob/2f52a1c628bf5823aa7d4f3847caa8ab03c659d2/docs/images/fig5.jpeg) | ![Fig 6](https://github.com/vumaq/ticker32/blob/2f52a1c628bf5823aa7d4f3847caa8ab03c659d2/docs/images/fig6.jpeg) |
 
 
-#### Assembly Steps
 1. Turn the power stand upside down and observe the cable cavities (see Fig 1).  
 2. Insert the USB-C (90°) end of the cable into the cavity in the base, with the metal connector protruding through the passthrough (see Fig 2).  
 3. Using the spoon handle, gently press the USB-C plug forward and down into place (see Fig 3).  
