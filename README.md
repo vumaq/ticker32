@@ -68,9 +68,9 @@
 
 ### Assembly Steps
 
-| ![Fig 1](https://github.com/vumaq/ticker32/blob/main/docs/images/fig1.jpg?raw=true)<br>Fig 1 | ![Fig 2](https://github.com/vumaq/ticker32/blob/main/docs/images/fig2.jpg?raw=true)<br>Fig 2 | ![Fig 3](https://github.com/vumaq/ticker32/blob/main/docs/images/fig3.jpg?raw=true)<br>Fig 3 |
+| ![Fig 1](https://github.com/vumaq/ticker32/blob/main/docs/images/fig1.jpg?raw=true)<br>**Fig 1** | ![Fig 2](https://github.com/vumaq/ticker32/blob/main/docs/images/fig2.jpg?raw=true)<br>**Fig 2** | ![Fig 3](https://github.com/vumaq/ticker32/blob/main/docs/images/fig3.jpg?raw=true)<br>**Fig 3** |
 |:---:|:---:|:---:|
-| ![Fig 4](https://github.com/vumaq/ticker32/blob/main/docs/images/fig4.jpg?raw=true)<br>Fig 4 | ![Fig 5](https://github.com/vumaq/ticker32/blob/main/docs/images/fig5.jpg?raw=true)<br>Fig 5 | ![Fig 6](https://github.com/vumaq/ticker32/blob/main/docs/images/fig6.jpg?raw=true)<br>Fig 6 |
+| ![Fig 4](https://github.com/vumaq/ticker32/blob/main/docs/images/fig4.jpg?raw=true)<br>**Fig 4** | ![Fig 5](https://github.com/vumaq/ticker32/blob/main/docs/images/fig5.jpg?raw=true)<br>**Fig 5** | ![Fig 6](https://github.com/vumaq/ticker32/blob/main/docs/images/fig6.jpg?raw=true)<br>**Fig 6** |
 
 
 1. Turn the power stand upside down and observe the cable cavities (see Fig 1).  
