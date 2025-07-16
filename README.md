@@ -102,6 +102,13 @@ By downloading or using the provided design files, you acknowledge that you are 
 
 ---
 
+## Contact
+
+Have questions, found a bug, or want to suggest a feature?  
+Feel free to drop me a line at **hello@ticker32.com**.
+
+---
+
 ## Support This Project
 
 ☕ Found this project useful? [Buy me a coffee on Ko-fi](https://ko-fi.com/vumaq) to support future updates!
