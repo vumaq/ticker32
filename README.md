@@ -21,7 +21,7 @@
 ![Parts and Tools Required](https://github.com/vumaq/ticker32/blob/main/docs/images/parts.jpg?raw=true)
 
 - **WAVESHARE ESP32-S3 1.8″ AMOLED Touch Display Development Board**  
-  Available from: waveshare.com/esp32-s3-touch-amoled-1.8.htm [waveshare.com/esp32-s3-touch-amoled-1.8.htm](waveshare.com/esp32-s3-touch-amoled-1.8.htm)
+  Available from: waveshare.com/esp32-s3-touch-amoled-1.8.htm [waveshare.com/esp32-s3-touch-amoled-1.8.htm](https://waveshare.com/esp32-s3-touch-amoled-1.8.htm)
 - **Ticker32 3D printed power stand** (PETG)  
   The STL 3D print file is available free from:  [ticker32.com](https://ticker32.com) and [github.com/vumaq/ticker32](https://github.dev/vumaq/ticker32/)
 - **NOTOW Elbow USB-A to USB-C 90° braided cable**  
