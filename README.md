@@ -62,7 +62,7 @@
    ```bash
    pip install esptool pyserial
    ```
-2. Make sure [`flash.py`](https://github.com/vumaq/ticker32/blob/main/tools/flash.py) and [v0.0.1-alpha.2025.07.16.bin](https://github.com/vumaq/ticker32/blob/main/releases/v0.0.1-alpha.2025.07.16.bin) are in the same folder.  
+2. Make sure [`flash.py`](https://github.com/vumaq/ticker32/blob/main/tools/flash.py) and ['v0.0.1-alpha.2025.07.16.bin'](https://github.com/vumaq/ticker32/blob/main/releases/v0.0.1-alpha.2025.07.16.bin) are in the same folder.  
 3. Run the flashing script:  
    ```bash
    python flash.py
