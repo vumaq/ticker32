@@ -5,7 +5,7 @@
 **ticker32** is a beginner-friendly ESP32-S3 project that displays live and 1-hour price trends for any cryptocurrency (available on CoinGecko) on a 1.8″ Waveshare AMOLED touchscreen.
 
 ### Current Release  
-**Version:** 1.0.1
+[v0.0.1-alpha.2025.07.16](https://github.com/vumaq/ticker32/blob/main/releases/v0.0.1-alpha.2025.07.16.bin)
 
 #### Features
 - **Live price & trend**: current price, 1-hour average, percentage change, and a 13-point mini-graph  
@@ -62,7 +62,7 @@
    ```bash
    pip install esptool pyserial
    ```
-2. Make sure `flash.py` and `firmware-X.X.X.bin` are in the root folder.  
+2. Make sure [`flash.py`](https://github.com/vumaq/ticker32/blob/main/tools/flash.py) and [v0.0.1-alpha.2025.07.16.bin](https://github.com/vumaq/ticker32/blob/main/releases/v0.0.1-alpha.2025.07.16.bin) are in the root folder.  
 3. Run the flashing script:  
    ```bash
    python flash.py
