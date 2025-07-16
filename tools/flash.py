@@ -4,8 +4,10 @@ flash.py
 
 Detects an ESP32 serial port (if not given), then prompts and flashes firmware using esptool.
 If no firmware path is given, defaults to the most recent v*.bin next to this script.
-If there are multiple v<semver>[-prerelease] (YYYY‑MM‑DD).bin files,
-uses the one with the highest semantic version (and newest date if versions equal).
+Filenames must be of the form:
+    vMAJOR.MINOR.PATCH[-prerelease].YYYY.MM.DD.bin
+If there are multiple matching files, uses the one with the highest semantic version
+(and newest date if versions equal).
 Usage:
     python flash.py [--port COM3] [--baud 115200] [--chip esp32s3]
                     [--address 0x0] [--verify] [--before default-reset]
@@ -70,7 +72,7 @@ def suggest_drivers(ports):
 
 
 def detect_esp32_port():
-    """Scan all COM ports and return the first one likely to be an ESP32, or None."""
+    """Scan COM ports and return the first one likely to be an ESP32, or None."""
     ports = list(serial.tools.list_ports.comports())
     candidates = []
     for p in ports:
@@ -92,25 +94,29 @@ def detect_esp32_port():
 
 def version_key(path):
     """
-    Build a sort key from filenames like:
-      vMAJOR.MINOR.PATCH[-prerelease] (YYYY-MM-DD).bin
-    Sorting by (major, minor, patch, stable_vs_prerelease, date_string).
+    Parse filenames like:
+      vMAJOR.MINOR.PATCH[-prerelease].YYYY.MM.DD.bin
+    and return a tuple:
+      (major, minor, patch, stable_flag, YYYY, MM, DD)
+    where stable_flag is 1 for no prerelease, 0 otherwise.
     """
     base = os.path.splitext(os.path.basename(path))[0]
     m = re.match(
-        r'^v(\d+)\.(\d+)\.(\d+)(?:-([^ ]+))? \((\d{4}-\d{2}-\d{2})\)$',
+        r'^v(\d+)\.(\d+)\.(\d+)(?:-([^\.]+))?\.(\d{4})\.(\d{2})\.(\d{2})$',
         base
     )
     if not m:
         return ()
-    major, minor, patch, prerelease, date_str = m.groups()
+    major, minor, patch, prerelease, year, month, day = m.groups()
     stable_flag = 1 if prerelease is None else 0
     return (
         int(major),
         int(minor),
         int(patch),
         stable_flag,
-        date_str
+        int(year),
+        int(month),
+        int(day),
     )
 
 
@@ -130,7 +136,7 @@ def main():
     parser.add_argument('firmware', nargs='?', help='Path to firmware binary')
     args = parser.parse_args()
 
-    # ─── Determine firmware path with wildcard support ────────────────────────────────
+    # ─── Determine firmware path ──────────────────────────────────────────────────────
     if args.firmware:
         firmware = args.firmware
     else:
@@ -142,11 +148,11 @@ def main():
         firmware = max(candidates, key=version_key)
 
     if not os.path.isfile(firmware):
-        print(f"Error: firmware file '{firmware}' not found at {firmware}.")
+        print(f"Error: firmware file '{firmware}' not found.")
         sys.exit(1)
     # ────────────────────────────────────────────────────────────────────────────────
 
-    # List all ports, suggest unknown drivers, and detect target port
+    # Suggest drivers & detect port
     all_ports = list(serial.tools.list_ports.comports())
     suggest_drivers(all_ports)
     port = args.port or detect_esp32_port()
@@ -154,7 +160,7 @@ def main():
         print("Error: Could not auto-detect an ESP32 port. Please specify --port.")
         sys.exit(1)
 
-    # Suggest driver for the selected port
+    # Suggest driver for chosen port
     for p in all_ports:
         if p.device == port and p.vid and p.pid:
             vidpid = f"{p.vid:04x}:{p.pid:04x}".lower()
@@ -177,17 +183,16 @@ def main():
         cmd.append('--verify')
     cmd += [args.address, firmware]
 
-    # Prompt user
-    print(f"About to flash '{firmware}' to {port} on {args.chip} at {args.baud}bps starting at address {args.address}.")
+    # Confirm & flash
+    print(f"About to flash '{firmware}' to {port} ({args.chip} @ {args.baud}bps, address {args.address}).")
     print(f"Reset before: {args.before}, reset after: {args.after}.")
     if args.verify:
         print("Flash will be verified after writing.")
     resp = input("Proceed? [Y/n]: ").strip().lower()
     if resp not in ('', 'y', 'yes'):
-        print("Flashing aborted by user.")
+        print("Flashing aborted.")
         sys.exit(0)
 
-    # Execute
     print('Running esptool with:', ' '.join(cmd))
     try:
         ret = esptool.main(cmd)
@@ -197,7 +202,7 @@ def main():
         print(f"Error during flashing: {e}")
         sys.exit(1)
 
-    if ret is None or ret == 0:
+    if ret in (None, 0):
         print("Flashing completed successfully.")
         sys.exit(0)
     else:
