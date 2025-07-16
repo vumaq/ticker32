@@ -1,5 +1,7 @@
 # ticker32
 
+![Hero](https://github.com/vumaq/ticker32/blob/main/docs/images/hero.jpg?raw=true)
+
 **ticker32** is a beginner-friendly ESP32-S3 project that displays live and 1-hour price trends for any cryptocurrency (available on CoinGecko) on a 1.8″ Waveshare AMOLED touchscreen.
 
 ### Current Release  
