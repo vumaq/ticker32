@@ -1,0 +1,6 @@
+body main img:first-child {
+    left: 50%;
+    margin-left: -25%;
+    position: relative;
+    max-width: 50%;
+}
