@@ -100,14 +100,9 @@ This 3D USB-C power stand design, including the associated STL file(s), is provi
 
 By downloading or using the provided design files, you acknowledge that you are solely responsible for the correct and safe use of the components involved.
 
----
-
 ## Contact
 
-Have questions, found a bug, or want to suggest a feature?  
-Feel free to drop me a line at **hello@ticker32.com**.
-
----
+Have questions, found a bug, or want to suggest a feature? Feel free to drop me a line at **hello@ticker32.com**.
 
 ## Support This Project
 
