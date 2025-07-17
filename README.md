@@ -23,7 +23,7 @@
 - **WAVESHARE ESP32-S3 1.8″ AMOLED Touch Display Development Board**  
   Available from: waveshare.com/esp32-s3-touch-amoled-1.8.htm [waveshare.com/esp32-s3-touch-amoled-1.8.htm](https://www.waveshare.com/esp32-s3-touch-amoled-1.8.htm?&aff_id=114863)
 - **Ticker32 3D printed power stand** (PETG)  
-  The STL 3D print file is available free from:  [ticker32.com](https://ticker32.com) and [github.com/vumaq/ticker32](https://github.dev/vumaq/ticker32/)
+  The STL 3D print file is available free from: [https://www.printables.com/model/1355637-waveshare-esp32-s3-18inch-amoled-touch-display-3d](https://www.printables.com/model/1355637-waveshare-esp32-s3-18inch-amoled-touch-display-3d)
 - **NOTOW Elbow USB-A to USB-C 90° braided cable**  
   Available from AliExpress: [aliexpress.com/w/wholesale--notow-elbow-usb-to-type-c-90-degrees-braid.html](https://aliexpress.com/w/wholesale--notow-elbow-usb-to-type-c-90-degrees-braid.html)
 - **Teaspoon or dessert spoon** with a handle that fits sideways into the cavity in the base.
